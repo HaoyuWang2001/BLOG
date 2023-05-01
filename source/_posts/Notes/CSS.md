@@ -12,41 +12,45 @@ tags:
 
 ## 引入方式
 
-1. 内嵌式：小案例
+### 内嵌式：小案例
 
-   写在style标签中，style标签一般写在head标签内，title标签下
+写在style标签中，style标签一般写在head标签内，title标签下
 
-   ```html
-   <style>
-       /* 注释 */
-       选择器 {
-           属性名: 属性值；
-       }
-   </style>
-   ```
+```html
+<style>
+    /* 注释 */
+    选择器 {
+        属性名: 属性值；
+    }
+</style>
+```
 
-   
 
-2. 外联式：单独.css文件，项目中常用
 
-   通过link标签在html中引入
+### 外联式：单独.css文件，项目中常用
 
-   ```html
-    <!-- 关系：样式表 -->
-    <link rel="stylesheet" href="">
-   ```
+通过link标签在html中引入
 
-   
+```html
+ <!-- 关系：样式表 -->
+ <link rel="stylesheet" href="">
+```
 
-3. 行内式：配合js使用
 
-   ```html
-   <div style="color: green; xxx: xxx">
-       xxx
-   </div>
-   ```
 
-   
+### 行内式：配合js使用
+
+一般情况不要使用
+
+```html
+<div style="color: green; xxx: xxx">
+    xxx
+</div>
+```
+
+---
+
+
 
 ## CSS选择器
 
@@ -144,6 +148,8 @@ p.class名{css}
 选择器:hover{css}
 ```
 
+---
+
 
 
 ## CSS特性
@@ -178,7 +184,7 @@ p.class名{css}
 
 !important>行内样式>id选择器>类选择器>标签选择器>通配符选择器>继承
 
-
+---
 
 
 
@@ -219,6 +225,8 @@ font: style weight size/line-height family;
 + rgba：a 0-1，表示透明度
 + 十六进制表示法：#000000，#ff0000等，简写#000，#f00
 
+---
+
 
 
 ## 背景
@@ -241,7 +249,7 @@ font: style weight size/line-height family;
   + 可以按需求省略
   + 特殊情况：在pc端，若盒子大小和背景图片大小一样，可写：`background: url()`
 
-
+---
 
 
 
@@ -274,7 +282,7 @@ font: style weight size/line-height family;
   + inline-block
   + inline
 
-
+---
 
 
 
@@ -375,6 +383,8 @@ box-sizing: border-box
 + 行内元素的垂直内外边距设置问题
   + 行内元素的margin-top，margin-bottom，padding-top，padding-bottom设置无效
   + 应使用 `line-height` 设置
+
+---
 
 
 
@@ -525,28 +535,11 @@ float: right;
 
 + 父元素设置 `overflow: hidden`
 
+---
+
+
+
 ## 备注
 
 1. `$` 数字递增操作
-
-   
-
-# JavaScript
-
-> reference: 
->
-> + [b站搬运 Udemy 的 JavaScript 教程](https://www.bilibili.com/video/BV1vA4y197C7)
->
-> + https://developer.mozilla.org/zh-CN/docs/Learn/
-
-# xx
-
-```javascript
-alert()
-console.log()
-```
-
-
-
-
 

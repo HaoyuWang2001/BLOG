@@ -1,7 +1,8 @@
 ---
 title: Mathematical Modeling
-date: 2023-03-17
+date: 2023-05-01
 tags:
+
 ---
 
 # 数学建模
@@ -81,19 +82,107 @@ tags:
 9. 数值分析算法
 10. 图象处理算法
 
+---
+
+
+
+
 ## 代码编写
 
-matlab
+### MATLAB
 
-python: numpy, pandas, matplotlib 三个包
++ 数据处理
++ 信号处理
++ 函数拟合
++ 图像绘制
 
-用于数据处理、绘图等
+### Python
 
-python: pytorch
+**NumPy, Pandas**
 
-用于机器学习（神经网络）
++ 数据处理及分析
++ 不同点:
+  + Pandas 处理表格和混杂数据, 比较契合统计分析中的表结构;
+  + NumPy 更适合处理统一的数值数组数据.
 
-## 论文撰写
+**Matplotlib**
+
++ 图像绘制
+
+**PyTorch**
+
++ 机器学习/神经网络
+
+**SciPy**
+SciPy 包含用于科学计算中常见问题的工具箱:
+
++ 文件输入/输出 `scipy.io`
++ 特殊函数 `scipy.special`
++ 线性代数运算 `scipy.linalg`
++ 插值 `scipy.interpolate`
++ 优化(含数学规划), 拟合 `scipy.optimize`
++ 统计和随机数 `scipy.stats`
++ 数值积分 `scipy.integrate`
++ 快速傅里叶变换 `scipy.fftpack`
++ 信号处理 `scipy.signal`
++ 图像处理 `scipy.ndimage`
+
+---
+
+## 软件准备
+
+### 翻译
++ 知云文献翻译
++ 有道文档翻译
+
+### 论文
+Word
+LaTex
++ [Overleaf](https://www.overleaf.com/): 线上多人共享LaTex撰写平台
++ Tex Live + VsCode: 本地, 推荐(因VsCode比TeXstudio好看)
++ Tex Live + TeXstudio: 本地
+
+### 绘图
+ [drawio](https://app.diagrams.net/)：用于结构图、树状图等逻辑图示的绘制
+
+### Python 环境
++ Anaconda + VsCode
++ Jupyter Notebook
+
+#### 数学公式
++ MathType：输入数学公式
++ Mathpix：识别数学公式
+
+### 其他
++ Excel：用于简单计算
++ SPSS（Statistical Product and Service Solutions）：统计分析
++ Lindo/Lingo：解决数学规划问题
++ MATLAB
+
+---
+
+## 学习内容
+
+### 论文写作
+视频：[论文撰写参考视频](https://www.bilibili.com/video/BV1Na411w7c2)
+
+### LaTeX
+a. 文档+视频：[LaTex基础](https://blog.csdn.net/qq1198768105/article/details/120615302)
+b. 模板：（easyMCM）
+c. 备注：出现电脑用户名（User）为中文而安装失败的问题，参考：[该博客](https://blog.csdn.net/wuyanxiushi/article/details/118864082)
+
+### 建模学习
+天津工业大学数学建模课程视频（使用软件：MATLAB、Lingo）：[该视频](https://www.bilibili.com/video/BV1iU4y1M7t9)
+
+### 机器学习
+参考书籍: 机器学习, 周志华 (西瓜书)
+参考课程: [李宏毅机器学习课程](https://www.bilibili.com/video/BV1Wv411h7kN ) (对应github：[Lhy_Machine_Learning](https://github.com/Fafa-DL/Lhy_Machine_Learning))
+sklearn 入门课程：https://www.bilibili.com/video/BV1aV411e7CJ
+PyTorch 参考书籍(于GitHub上): [深度学习框架PyTorch 入门与实战](https://github.com/chenyuntc/pytorch-book)
+
+---
+
+## 论文大纲
 
 ### 美赛
 
@@ -101,7 +190,7 @@ python: pytorch
 2. Introduction
 3. Assumption and Justifications
 4. Notations (and Glossary)
-5. Model
+5. Model Ⅰ Ⅱ Ⅲ
 6. (Data Description)
 7. Sensitivity Analysis
 8. Model Evaluation and Further Discussion
@@ -110,53 +199,16 @@ python: pytorch
 11. Appendices
 12. (Memo or Letter or Article)
 
-### 国赛
+---
 
-???
+## 文档
 
-## 软件学习
+MATLAB中文文档: https://ww2.mathworks.cn/help/matlab
 
-1. 知云文献翻译、有道文档翻译
-2. Excel：用于简单计算
-3. Word or LaTeX（TeX Live和TeXstudio）：撰写论文
-4. SPSS（Statistical Product and Service Solutions）：统计分析
-5. Lindo/Lingo：解决数学规划问题
-6. MATLAB：作图及xxx
-7. 亿图图示、ppt SmartArt：用于结构图、树状图等逻辑图示的绘制
-8. Python：数据分析，作图（matlab平替）；用来做机器学习；
-   Anacando jupyter notebook：用来写python；
-   sklearn：Python的一个package，搞机器学习；
-   pytorch：Python的一个package，也用来搞机器学习；
-9. MathType：输入数学公式
-10. Mathpix：识别数学公式
+Lingo英文文档: https://www.lindo.com/downloads/PDF/LINGO.pdf
 
-## 学习内容
+sklearn 中文文档: https://www.sklearncn.cn/
 
-1. 论文写作：
-   视频：https://www.bilibili.com/video/BV1Na411w7c2
+sklearn Map: https://scikit-learn.org/stable/tutorial/machine_learning_map/
 
-2. LaTeX（TeX Live和TeXstudio）
-    a. 文档+视频：https://blog.csdn.net/qq1198768105/article/details/120615302
-   
-    b. 模板：（easyMCM）
-   
-    c. 备注：出现电脑用户名（User）为中文而安装失败的问题，参考：https://blog.csdn.net/wuyanxiushi/article/details/118864082
 
-3. 天津工业大学数学建模课程视频（使用软件：MATLAB、Lingo）：https://www.bilibili.com/video/BV1iU4y1M7t9
-
-4. MATLAB文档：
-   英文：https://www.mathworks.com/help/matlab/
-   中文：https://ww2.mathworks.cn/help/matlab/
-
-5. Lingo文档：https://www.lindo.com/downloads/PDF/LINGO.pdf
-
-6. 机器学习（使用python的package “sklearn”）
-    参考书籍：机器学习，周志华（西瓜书）；
-   
-    参考课程：https://www.bilibili.com/video/BV1Wv411h7kN 
-    （对应github：https://github.com/Fafa-DL/Lhy_Machine_Learning）；
-   
-    入门课程：https://www.bilibili.com/video/BV1aV411e7CJ
-   
-    sklearn中文文档：https://www.sklearncn.cn/
-    Sklearn Map：https://scikit-learn.org/stable/tutorial/machine_learning_map/

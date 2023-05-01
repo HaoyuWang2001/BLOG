@@ -10,7 +10,7 @@ tags:
 
 *hyper text markup language*
 
-**后缀名: ** `html`, `htm`
+**后缀名:**  `html`, `htm`
 
 ## 骨架
 

@@ -11,6 +11,5 @@ tags:
 > reference: 
 >
 > + [b站搬运 Udemy 的 JavaScript 教程](https://www.bilibili.com/video/BV1vA4y197C7)
->
-> + https://developer.mozilla.org/zh-CN/docs/Learn/
+> + [MDN Web 开发](https://developer.mozilla.org/zh-CN/docs/Learn/)
 
