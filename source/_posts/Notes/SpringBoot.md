@@ -24,6 +24,18 @@ https://docs.spring.io/spring-boot/docs/3.0.3/reference/htmlsingle/
 
 ---
 
+## Spring IoC
+
+
+
+## Spring DI
+
+
+
+## Spring AOP
+
+AOP (Aspect-Oriented Programming, 面向切面编程)
+
 
 
 ## 注解
@@ -32,9 +44,9 @@ https://docs.spring.io/spring-boot/docs/3.0.3/reference/htmlsingle/
   
   + 依赖注入：
     
-    + `@Autowired` : 
+    + `@Autowired` : 自动注入
   
-  + 标注类呗Spring容器管理
+  + 标注类被Spring容器管理
     
     + `@Component` 泛指组件，不好归类的组件使用它标注
     
@@ -44,7 +56,7 @@ https://docs.spring.io/spring-boot/docs/3.0.3/reference/htmlsingle/
     
     + `@Controller` MVC控制层，常需注入Service层
     
-    + `@RestController` 跟Rest服务器有关
+    + `@RestController` 用于REST Web 服务，类似于`@Controller`+`@ResponseBody`
     
     + `@Configuration` 声明配置类
   
@@ -65,23 +77,18 @@ https://docs.spring.io/spring-boot/docs/3.0.3/reference/htmlsingle/
 + HTTP请求
   
   + `@RequestMapping(value=...,method=...)` 
-  
   + `@GetMapping` 
-  
   + `@PostMapping`
-  
   + `@PutMapping`
-  
+  + `@PatchMapping`
   + `@DeleteMapping`
   
-  + `@PatchMapping`
-  
   ```
   
   ```
   
   
-
+  
 + 前后端参数传递
   
   + `@RequestParam` 用在方法的参数前面，获取请求中表单类型的`key=value`格式的数据
